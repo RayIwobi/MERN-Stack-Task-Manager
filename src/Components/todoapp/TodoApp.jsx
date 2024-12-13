@@ -20,6 +20,13 @@ function TodoApp() {
 
     const [filter, setFilter] = useState('')
 
+    //date event to stamp the date on every task
+    const today = new Date();
+    const month = today.getMonth() +1;
+    const year = today.getFullYear();
+    const date = today.getDate();
+    const currentDate = month + '/' + date + '/' + year
+
     const handleChange = (event) => {
         setNewtodos(event.target.value)
     }
@@ -121,12 +128,17 @@ function TodoApp() {
                         </span>
                         
                     ) : (
+                        <div className='textoutput'>
                         <span style={{textDecoration: todo.checked ? 'line-through' : 'none',
                             color: todo.checked ? 'salmon' : 'white',
                             fontSize:'17px', fontWeight:'400'
                     }}>
                         {todo.text}
+                        
                         </span>
+                        <div className='datestamp'>{currentDate}</div>
+                        </div>
+                        
                     )}
                     <div className='editdelete'>
                     {editingId !== todo.id && (
@@ -158,6 +170,7 @@ function TodoApp() {
         </div>
       })}
     </div>
+    
     </div>
   )
 }
