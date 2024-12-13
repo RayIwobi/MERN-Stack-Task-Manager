@@ -1,32 +1,12 @@
 import './App.css';
-import Movieapp from './Components/moviefolder/Movieapp';
-//  import Trytodo from './Components/todolisttry/Trytodo';
-// import TodoSentry from './Components/todolisttry/TodoSentry'
-// import Movietry from './Components/todolisttry/Movietry';
-// import MarvelApi from './Components/todolisttry/MarvelApi'
-
-// import { Provider } from 'react-redux';
-// import CounterApp from './Components/CounterApp/CounterApp';
-// import store from './Components/reduxStore/store';
-// import CounterNav from './Components/CounterApp/CounterNav';
+import TodoApp from './Components/todoapp/TodoApp'
+//import TodosApps from './Components/todoapp/TodosApps';
 
 function App() {
   return (
     <div className="App">
-      <Movieapp/>
-
-
-
-
-      
-      {/* <MarvelApi />  */}
-      {/* <Movietry /> */}
-      {/* <Provider store={store}>
-      <CounterNav />
-      <CounterApp />
-      {/* <TodoSentry /> */}
-      {/* <Trytodo/> 
-      </Provider>*/}
+       {/*<TodosApps/>*/} 
+       <TodoApp /> 
     </div>
   );
 }

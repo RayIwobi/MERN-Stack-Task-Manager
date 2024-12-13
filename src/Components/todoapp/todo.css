@@ -1,0 +1,153 @@
+
+body{
+    background-color: #343148FF;
+}
+
+.maincontent{
+    background-color: #D7C49EFF;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(161, 152, 133);
+    border: 1px;
+    border-style:double;
+    border-color: white;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.content button{
+    width: 80px;
+    height: 34.5px;
+    background-color: #343148FF;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.resultwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343148FF;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    width: 400px;
+    height: auto;
+}
+
+.editsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    height: 30px;
+    background-color: #343148FF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.savecancelicon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.editmode{
+    max-width: 450px;
+    margin-right: 10px;
+    height: 30px;
+    border: 1px;
+    border-style: double;
+    border-color: white;
+    color: white;
+    background-color: #343148FF;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.saveicon{
+    color: sandybrown;
+}
+
+.cancelicon{
+    color: white;
+}
+
+.deleteicon{
+    color: red;
+    cursor: pointer;
+}
+
+.editicon{
+    cursor: pointer;
+}
+
+.editdelete{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.selectsec{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.selectsec select{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #343148FF;
+    color: white;
+    border-radius: 5px;
+    margin-right:50px
+}
+
+.selectoutput{
+    margin-left: 40px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.selectsection{
+    background-color: #343148FF;
+    margin: 5px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+
+}
