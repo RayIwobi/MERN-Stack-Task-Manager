@@ -1,4 +1,4 @@
-# Task Management App
+# **Task Management App**
 
 This is a React-based task management application that allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks. Users can also filter tasks based on their completion status: completed, uncompleted, or all tasks.
 
