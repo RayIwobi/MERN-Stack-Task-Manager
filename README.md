@@ -48,7 +48,7 @@ Make sure you have the following installed on your system:
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/task-management-app.git
+   git clone https://github.com/RayIwobi/Task-Management-App.git
    cd task-management-app
    ```
 
