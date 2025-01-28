@@ -1,0 +1,52 @@
+
+<!-- THIS PAGE IS JUST WHERE I ACCESSED SOME OF THE 
+ CODE I WORKED WITH BEFORE ADDING TO THE PROJECT -->
+
+
+<!-- const [editingId, setEditingId] = useState(null);
+const [editedText, setEditedText] = useState('');
+
+
+const handleEdit = (id, text) => {
+    seteditingId(id);
+    setEditedText(text);
+}
+
+const handleSave = () => {
+    const updatedTodos = todos.map((todo) => {
+        return todo.id === id ? {...todo, text:editedText} : todo
+    }) 
+    setTodos(updatedtodos);
+    setEditingId(null);
+    setEditedText('');
+}
+
+const handlCancel = () => {
+    setEditingId(null);
+    setEditedText('')
+}
+
+
+{editingId === todo.id ? (
+    <span>
+        <input 
+          type="text"
+          value={editedText}
+          onChange={(e) => setEditedText(todo.id)}
+        /> 
+
+        <button onClick={(e) => hanleSave(todo.id)}>Save</button>
+        <button onClick={handleCancel}>Cancel</button>
+    
+) : (
+        {todo.text}
+</span>
+)}
+
+{editingId !== todo.id && (
+    <button
+        onClick={() => handleEdit(todo.id, todo.text)}
+    >
+        Edit
+    </button>
+)} -->
