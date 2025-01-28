@@ -1,10 +1,11 @@
-**Task Management App**
+**Task Management App with MERN Stack**
 
-![image001](https://github.com/user-attachments/assets/0170068b-280a-4897-8b65-0982713f27e0)
+![image001](https://github.com/user-attachments/assets/3b7e8dbd-70ba-4762-9973-66b8154fd15f)
 
-# Task Management App
 
-This is a React-based task management application that allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks. Users can also filter tasks based on their completion status: completed, uncompleted, or all tasks.
+# Task Management App with MERN Stack
+
+This is a React-based task management application that allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks. Users can also filter tasks based on their completion status: completed, uncompleted, or all tasks. it also contains backend services
 
 ---
 
